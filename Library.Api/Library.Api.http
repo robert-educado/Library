@@ -1,0 +1,6 @@
+@Library.Api_HostAddress = https://localhost:8000
+
+### Hämta alla böcker
+GET {{Library.Api_HostAddress}}/api/books?page=2&pageSize=25
+Accept: application/json
+
